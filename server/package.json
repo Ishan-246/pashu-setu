@@ -1,0 +1,17 @@
+{
+  "name": "pashu-setu-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pashu-Setu clustering engine \u2014 spatio-temporal clustering of livestock health reports",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/cluster.test.js",
+    "test:json": "node test/run-both-drivers.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

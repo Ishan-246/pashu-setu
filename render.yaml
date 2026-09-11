@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pashu-setu
+    runtime: node
+    plan: free
+    buildCommand: cd client && npm install && npm run build && cd ../server && npm install
+    startCommand: cd server && node src/server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22.11.0
