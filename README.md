@@ -118,3 +118,6 @@ overridden live: `/api/clusters?epsKm=3&epsHours=24&minPts=4`.
 
 The system never produces a diagnosis. It produces a suspected health event.
 The veterinarian verifies; the laboratory confirms.
+
+Made by 
+Ishan
